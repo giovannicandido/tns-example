@@ -1,0 +1,6 @@
+@import url('side-drawer-content-common.css');
+
+.drawer-button,
+.drawer-button-external {
+    font-size: 13;
+}

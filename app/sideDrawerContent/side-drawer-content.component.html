@@ -1,0 +1,38 @@
+  <StackLayout loaded="onLoaded">
+        <Image src="res://logo_main_nav" margin="40 0 24 0" horizontalAlignment="center" stretch="none" ></Image>
+
+        <Button text="Home" tap="tapHome" class="drawer-button" ></Button>
+        <Button text="About" tap="tapAbout" class="drawer-button" ></Button>
+
+        <GridLayout class="drawer-external-link" tap="tapDrawerLink" tag="http://docs.nativescript.org/getting-started">
+            <GridLayout class="drawer-external-icon">
+                <Label text="Getting started" class="drawer-external-label" ></Label>
+            </GridLayout>
+        </GridLayout>
+
+        <GridLayout class="drawer-external-link" tap="tapDrawerLink" tag="https://github.com/NativeScript/nativescript-marketplace-demo">
+            <GridLayout class="drawer-external-icon">
+                <Label text="Source" class="drawer-external-label" ></Label>
+            </GridLayout>
+        </GridLayout>
+
+        <GridLayout class="drawer-external-link" tap="tapDrawerLink" tag="http://plugins.telerik.com/nativescript">
+            <GridLayout class="drawer-external-icon">
+                <Label text="Verified plugins" class="drawer-external-label" ></Label>
+            </GridLayout>
+        </GridLayout>
+
+        <GridLayout class="drawer-external-link" tap="tapDrawerLink" tag="http://docs.nativescript.org">
+            <GridLayout class="drawer-external-icon">
+                <Label text="Documentation" class="drawer-external-label" ></Label>
+            </GridLayout>
+        </GridLayout>
+
+        <GridLayout class="drawer-external-link" tap="tapDrawerLink" tag="http://www.nativescript.org">
+            <GridLayout class="drawer-external-icon">
+                <Label text="Product page" class="drawer-external-label" ></Label>
+            </GridLayout>
+        </GridLayout>
+
+    </StackLayout>
+
